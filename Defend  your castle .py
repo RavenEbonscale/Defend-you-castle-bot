@@ -53,10 +53,8 @@ def day():
                     rgb= np.array(box.getpixel((x,y)))#RGB
                     if rgb[2] == 204: #Looking for blue color code 204
                         lmd(x+1446, y + 460)
-
-                        
                         #time.sleep(.001)
-                        lmu(90+1445, 25 + 259)                    
+                        lmu(90+1445, 25 + 259)
 
 
 
